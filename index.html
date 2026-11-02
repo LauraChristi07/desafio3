@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="cabecalho">
+      <h1>📝 Minha Lista de Tarefas</h1>
+      <p class="subtitulo">Organize o seu dia de forma simples e prática</p>
+    </header>
+
+    <!-- Formulário para adicionar nova tarefa -->
+    <form id="form-tarefa" class="form-tarefa">
+      <input
+        type="text"
+        id="input-tarefa"
+        placeholder="O que você precisa fazer hoje?"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="btn-adicionar">Adicionar</button>
+    </form>
+
+    <!-- Barra de resumo de status -->
+    <div class="resumo">
+      <span id="contador-tarefas">0 tarefas cadastradas</span>
+      <button type="button" id="btn-limpar-concluidas" class="btn-limpar" style="display: none;">
+        Limpar concluídas
+      </button>
+    </div>
+
+    <!-- Lista onde os itens serão inseridos dinamicamente -->
+    <ul id="lista-tarefas" class="lista-tarefas">
+      <!-- O JavaScript insere os itens <li> aqui -->
+    </ul>
+
+    <!-- Mensagem exibida quando não houver itens -->
+    <p id="mensagem-vazia" class="mensagem-vazia">
+      Nenhuma tarefa por aqui. Que tal adicionar a primeira? ✨
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
