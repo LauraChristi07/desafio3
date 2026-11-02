@@ -9,7 +9,7 @@ Aplicação web simples e didática de lista de afazeres (To-Do List), desenvolv
 Não é necessário instalar nenhum programa adicional, compilador ou servidor:
 
 1. Abra a pasta do projeto no explorador de arquivos:
-   `C:\Users\laura\.gemini\antigravity\scratch\lista-de-tarefas`
+   `lista-de-tarefas`
 2. Dê um duplo clique no arquivo **`index.html`** (ele abrirá diretamente no seu navegador padrão, como Chrome, Edge ou Firefox).
 3. Pronto! Você já pode adicionar, marcar como concluídas e remover tarefas.
 
